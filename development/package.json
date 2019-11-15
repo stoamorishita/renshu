@@ -1,0 +1,16 @@
+{
+  "name": "development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:html": "ejs-cli --base-dir src/ejs/ index.ejs --out dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs-cli": "^2.1.1"
+  }
+}
